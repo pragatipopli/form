@@ -1,0 +1,35 @@
+
+.container {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 12px;
+  font-size: 16px;
+}
+
+button {
+  background: blue;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: darkblue;
+}
